@@ -1,6 +1,6 @@
 # Exercice "My Blog"
 
-I've created a small app using Nodejs, Express, RabbitMQ, React, MailGun. My project include two servers (Api and email server).
+I've created a small app using Nodejs, Express, RabbitMQ, React, MailGun. My project include two servers (Api and [email server](https://github.com/quocnt/emailworker_rabbitmq)).
 
 ### Installation
 
