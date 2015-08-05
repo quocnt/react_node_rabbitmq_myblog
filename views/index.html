@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block script %}
+  <script src="./bower_components/react-fluxer/dist/react-fluxer.min.js"></script>
+  <script src="./bower_components/react-router/build/umd/ReactRouter.min.js"></script>
+  <script src="./bower_components/react/JSXTransformer.js"></script>
+  <script src="./bower_components/eventEmitter/EventEmitter.min.js"></script>
+  <script src="./bower_components/lodash/lodash.min.js"></script>
+  <script src="./bower_components/moment/min/moment.min.js"></script>
+{% endblock %}
+
+
+
+{% block content %}
+<div id="my-blog"></div>
+<script>
+	window.USER = {};
+	{% if user %}
+		USER.username = "{{user.username}}";
+		USER._id = "{{user._id}}"
+	{% endif %};
+</script>
+<script src="./js/bundle.js"></script>
+{% endblock %}

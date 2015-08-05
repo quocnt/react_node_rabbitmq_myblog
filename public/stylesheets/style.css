@@ -1,0 +1,102 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #34495e
+}
+
+input, textarea, button, a.btn{
+ border-radius: 0px !important;
+}
+
+.btn-primary, .btn-primary:hover {
+  background-color: #34495e;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#main_content {
+  width: 50%;
+  margin: 5% auto;
+  border: 1px solid;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.bl-form {
+  width: 50%;
+  background-color: #fff;
+  padding: 30px;
+  margin: 5% auto;
+}
+
+.blog {
+ background-color : #f8f8f8;
+ padding: 20px;
+ margin: 0 10px 10px 10px;
+}
+
+.blog .title {
+ font-size : 2em;
+ text-decoration: none;
+ color: #2c3e50;
+}
+
+.blog .blog-content {
+  padding: 0px 10px 0px 10px;
+  border-left: 1px solid #bdc3c7;
+  margin: 10px 0 10px;
+}
+
+.blog-detail .blog-content {
+  border-left: none;
+}
+
+.comments .input {
+  padding: 15px 15px 15px 5px;
+  border: 1px solid #bdc3c7;
+  margin: 0 1px;
+}
+
+.wrap-comment {
+ margin-top: 10px;
+}
+.comment {
+ padding: 10px;
+  border-top: 1px solid #bdc3c7;
+}
+
+.comment:first-child{
+ border-top: none;
+}
+
+.comment-author {
+  color : #2c3e50;
+  font-weight: bold;
+}
+
+.comment-date {
+  font-style: italic;
+}
+
+.comment-content {
+ padding: 10px;
+}
+
+i.fa {
+ margin-right: 5px;
+}
+
+.blog .under-title {
+  margin-top: 5px;
+}
+
+.blog .under-title .author {
+ margin-right: 10px;
+ font-style: italic;
+}
+
+.bl-form-create {
+ background-color: #f8f8f8;
+ padding: 20px 20px 10px 0;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "myblog",
+  "version": "0.0.0",
+  "authors": [
+    "quocnguyen"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "react": "~0.13.3",
+    "lodash": "~3.10.0",
+    "eventEmitter": "~4.2.11",
+    "flux": "~2.0.2",
+    "react-fluxer": "~0.0.3",
+    "react-router": "~0.13.3",
+    "moment": "~2.10.6"
+  }
+}
